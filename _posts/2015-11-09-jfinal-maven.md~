@@ -61,7 +61,9 @@ description: 搭建jfinal项目maven流程
 		<version>5.1.20</version>
 	</dependency>
    ```
+
    ```C3p0
+
 	<dependency>
 		<groupId>c3p0</groupId>
 		<artifactId>c3p0</artifactId>
