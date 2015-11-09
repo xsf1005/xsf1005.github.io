@@ -15,14 +15,7 @@ description:搭建jfinal项目maven流程
 ## 开始搭建
 
   1. 新建一个maven项目。
-	
-  ![image]https://github.com/xsf1005/xsf1005.github.io/blob/master/img/2015-11-09-jfinal/1.png)
 
-  ![image](https://github.com/xsf1005/xsf1005.github.io/blob/master/img/2015-11-09-jfinal/2.png)
-
-  ![image](https://github.com/xsf1005/xsf1005.github.io/blob/master/img/2015-11-09-jfinal/3.png)
-
-  ![image](https://github.com/xsf1005/xsf1005.github.io/blob/master/img/2015-11-09-jfinal/4.png)
 
    到此为止，一个完整的maven项目结构就搭建完成了。
 
