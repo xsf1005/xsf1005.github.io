@@ -29,10 +29,12 @@ description:搭建jfinal项目maven流程
 
 ##添加jfinal
 
-   1.官网上下载jfinal demo包。里面提供了一些常用jar包，直接把jar拷贝到lib中使用就ok，可以快速的搭建成功，这里就不说了，在里面没有找到关于maven搭建的。官网见：[<a href="http://www.jfinal.com/">]
+   1.官网上下载jfinal demo包。里面提供了一些常用jar包，直接把jar拷贝到lib中使用就ok，可以快速的搭建成功，这里就不说了，
+在里面没有找到关于maven搭建的。官网见：[<a href="http://www.jfinal.com/">]
 	
    2.搭建maven的依赖
- 
+   <pre>
+	<code>
    <dependencies>
   	<dependency> 		
 		<groupId>com.jfinal</groupId>
@@ -143,8 +145,9 @@ description:搭建jfinal项目maven流程
 	        <artifactId>cos</artifactId>
 	        <version>26Dec2008</version>
 	   </dependency> 
-
-
+	</code>
+   </pre>
+	
    3.配置启动jetty
 	
    JFinal.start("src/main/webapp", 8088, "/", 5);
