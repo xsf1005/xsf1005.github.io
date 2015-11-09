@@ -8,9 +8,33 @@ description:搭建jfinal项目maven流程
 
 ---
 
-## 使用环境
+## vim常用命令
+
+- i:插入，打开vim，按i进入插入操作。否则不能进行内容编辑。
+- esc:返回，返回到查看界面。
+- v:可视模式,可以选定多行。
+- y:非插入状态下可拷贝一个字符。
+- p:非插入状态下粘贴。
+- V:非插入状态下选中一行。
+- zf:非插入状态下折叠一行。输入完后，按回车才行。
+- zo:非插入状态下打开折叠。按回车确认。
+- >: '>符号'可视状态下，即按v后，按此符号，完成缩进。
+- : 后加行号，跳到某行，如 :10 跳到第10行。
+
+## vim windows 下内容乱码解决方案
+
+进入vim后，找到编辑菜单，打开启动设定，有个窗口文件，_vimrc文件
+设置文件编码格式：
+- **set encoding=utf8**
+- **set termencoding=utf-8**
+- **set fileencoding=utf-8**
+- **set fileencodings=ucs-bom,utf-8,gbk,chinese,cp936**
+
+## vim windows 下提示信息乱码解决方案
+
+**language messages zh_CN.utf-8**
 
 
 
-  
+
 
