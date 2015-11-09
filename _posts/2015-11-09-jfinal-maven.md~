@@ -15,126 +15,143 @@ description:搭建jfinal项目maven流程
 
   1. 新建一个maven项目。
 	
-  ![image](https://xsf1005.github.io/img/2015-11-09-jfinal/1.png)
+  ![image]https://github.com/xsf1005/xsf1005.github.io/blob/master/img/2015-11-09-jfinal/1.png)
 
-  ![image](https://xsf1005.github.io/img/2015-11-09-jfinal/2.png)
+  ![image](https://github.com/xsf1005/xsf1005.github.io/blob/master/img/2015-11-09-jfinal/2.png)
 
-  ![image](https://xsf1005.github.io/img/2015-11-09-jfinal/3.png)
+  ![image](https://github.com/xsf1005/xsf1005.github.io/blob/master/img/2015-11-09-jfinal/3.png)
 
-  ![image](https://xsf1005.github.io/img/2015-11-09-jfinal/4.png)
+  ![image](https://github.com/xsf1005/xsf1005.github.io/blob/master/img/2015-11-09-jfinal/4.png)
 
    到此为止，一个完整的maven项目结构就搭建完成了。
 
-   maven的依赖，查找库：<a href="http://mvnrepository.com/">
+   [maven的依赖，查找库：](http://mvnrepository.com/)
 
 ##添加jfinal
 
    1.官网上下载jfinal demo包。里面提供了一些常用jar包，直接把jar拷贝到lib中使用就ok，可以快速的搭建成功，这里就不说了，
-在里面没有找到关于maven搭建的。官网见：[<a href="http://www.jfinal.com/">]
+在里面没有找到关于maven搭建的。[官网见:](http://www.jfinal.com/)
 	
    2.搭建maven的依赖
-   <pre>
-	<code>
-   <dependencies>
+
+   ```JFinal
   	<dependency> 		
 		<groupId>com.jfinal</groupId>
 		<artifactId>jfinal</artifactId>
 		<version>2.0</version>
   	</dependency>
+   ```
+   ```JFinal-ext
   	<dependency>
 		<groupId>com.jfinal</groupId>
 		<artifactId>jfinal-ext</artifactId>
 		<version>3.1.4</version>
 	</dependency>
+   ```
+   ```Mysql
 	<dependency>
 		<groupId>mysql</groupId>
 		<artifactId>mysql-connector-java</artifactId>
 		<version>5.1.20</version>
 	</dependency>
+   ```
+   ```C3p0
 	<dependency>
 		<groupId>c3p0</groupId>
 		<artifactId>c3p0</artifactId>
 		<version>0.9.1.2</version>
 	</dependency>
+   ```
+   ```Log4j
 	<dependency>
 		<groupId>log4j</groupId>
 		<artifactId>log4j</artifactId>
 		<version>1.2.17</version>
 	</dependency>
+   ```Jetty-server
 	<dependency>
 		<groupId>com.jfinal</groupId>
 		<artifactId>jetty-server</artifactId>
 		<version>8.1.8</version>
 	</dependency>
-			
-     	 <!-- Jetty JSP：根据 Dependency Hierarchy 视图拆分成了七个 dependency，
-            - 方便项目以及便于 导出 war的在jetty与tomcat间无缝迁移
-            - Dependencies: http://mvnrepository.com/artifact/org.eclipse.jetty/jetty-jsp
-   		 -->
+   ```
+   ```Jetty JSP：根据 Dependency Hierarchy 视图拆分成了七个 dependency， 
+   ```方便项目以及便于 导出 war的在jetty与tomcat间无缝迁移 - Dependencies: http://mvnrepository.com/artifact/org.eclipse.jetty/jetty-jsp
+  
+   ```Jetty-jsp
 	<dependency>
 	        <groupId>org.eclipse.jetty</groupId>
 	        <artifactId>jetty-jsp</artifactId>
 	        <version>8.1.8.v20121106</version>
 	        <scope>provided</scope>
 	</dependency>
-	     
-	<dependency><!-- jetty-server-8.1.8 开发时JSP 支持 -->
+   ```
+   ```jetty-server-8.1.8 开发时JSP 支持	     
+	<dependency>
 	        <groupId>org.eclipse.jetty.orbit</groupId>
 	        <artifactId>javax.servlet.jsp</artifactId>
 	        <version>2.2.0.v201112011158</version>
 	        <scope>provided</scope>
 	</dependency>
-	    <!-- jetty-server-8.1.8 开发时JSP 支持 -->
+   ```
+   ```jetty-server-8.1.8 开发时JSP 支持
 	<dependency>
 	        <groupId>org.eclipse.jetty.orbit</groupId>
 	        <artifactId>org.apache.jasper.glassfish</artifactId>
 	        <version>2.2.2.v201112011158</version>
 	        <scope>provided</scope>
 	 </dependency>
-	 <dependency><!-- jetty-server-8.1.8 开发时JSP 支持 -->
+   ```
+   ```jetty-server-8.1.8 开发时JSP 支持
+	 <dependency>
 	        <groupId>org.eclipse.jetty.orbit</groupId>
 	        <artifactId>javax.el</artifactId>
 	        <version>2.2.0.v201108011116</version>
 	        <scope>provided</scope>
 	  </dependency>
-	    
-	  <dependency><!-- jetty-server-8.1.8 开发时JSP 支持 -->
+   ```
+   ```jetty-server-8.1.8 开发时JSP 支持	    
+	  <dependency>
 	        <groupId>org.eclipse.jetty.orbit</groupId>
 	        <artifactId>com.sun.el</artifactId>
 	        <version>2.2.0.v201108011116</version>
 	        <scope>provided</scope>
 	  </dependency>
-	  <dependency><!-- jetty-server-8.1.8 开发时JSP 支持 -->
+   ```
+   ```jetty-server-8.1.8 开发时JSP 支持
+	  <dependency>
 	        <groupId>org.eclipse.jetty.orbit</groupId>
 	        <artifactId>org.eclipse.jdt.core</artifactId>
 	        <version>3.7.1</version>
 	        <scope>provided</scope>
 	  </dependency>
-	  <dependency><!-- JSTL 支持 -->
+   ```
+   ``` JSTL 支持
+	  <dependency>
 	        <groupId>org.eclipse.jetty.orbit</groupId>
 	        <artifactId>javax.servlet.jsp.jstl</artifactId>
 	        <version>1.2.0.v201105211821</version>
-	        <exclusions><!-- 避免导出 servlet jar 包 -->
+	        <exclusions>
 	            <exclusion>
 	                <groupId>org.eclipse.jetty.orbit</groupId>
 	                <artifactId>javax.servlet</artifactId>
 	            </exclusion>
 	        </exclusions>
 	   </dependency>
-	    <!-- JSTL 支持 -->
-	    
+
 	   <dependency>
 	        <groupId>org.eclipse.jetty.orbit</groupId>
 	        <artifactId>org.apache.taglibs.standard.glassfish</artifactId>
 	        <version>1.2.0.v201112081803</version>
-	        <exclusions><!-- 避免导出 servlet jar 包 -->
+	        <exclusions>
 	            <exclusion>
 	                <groupId>org.eclipse.jetty.orbit</groupId>
 	                <artifactId>javax.servlet</artifactId>
 	            </exclusion>
 	        </exclusions>
 	   </dependency>
-	        
+   ```
+   ```Freemarker	        
 	   <dependency>
 	        <groupId>org.freemarker</groupId>
 	        <artifactId>freemarker</artifactId>
@@ -145,8 +162,7 @@ description:搭建jfinal项目maven流程
 	        <artifactId>cos</artifactId>
 	        <version>26Dec2008</version>
 	   </dependency> 
-	</code>
-   </pre>
+   ```
 	
    3.配置启动jetty
 	

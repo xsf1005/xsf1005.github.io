@@ -68,6 +68,7 @@ description:搭建jfinal项目maven流程
 		<artifactId>log4j</artifactId>
 		<version>1.2.17</version>
 	</dependency>
+   ```
    ```Jetty-server
 	<dependency>
 		<groupId>com.jfinal</groupId>
@@ -75,10 +76,7 @@ description:搭建jfinal项目maven流程
 		<version>8.1.8</version>
 	</dependency>
    ```
-   ```Jetty JSP：根据 Dependency Hierarchy 视图拆分成了七个 dependency， 
-   ```方便项目以及便于 导出 war的在jetty与tomcat间无缝迁移 - Dependencies: http://mvnrepository.com/artifact/org.eclipse.jetty/jetty-jsp
-  
-   ```Jetty-jsp
+   ```Jetty JSP：根据 Dependency Hierarchy 视图拆分成了七个 dependency,方便项目以及便于 导出 war的在jetty与tomcat间无缝迁移 
 	<dependency>
 	        <groupId>org.eclipse.jetty</groupId>
 	        <artifactId>jetty-jsp</artifactId>
