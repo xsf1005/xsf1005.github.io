@@ -35,90 +35,90 @@ description: 搭建jfinal项目maven流程
 	
    2.搭建maven的依赖
 
-    <dependency>	
-	<groupId>com.jfinal</groupId>
-	<artifactId>jfinal</artifactId>
-	<version>2.0</version>
+    <dependency>
+        <groupId>com.jfinal</groupId>
+        <artifactId>jfinal</artifactId>
+        <version>2.0</version>
     </dependency>
 
     <dependency>
         <groupId>com.jfinal</groupId>
-	<artifactId>jfinal-ext</artifactId>
-	<version>3.1.4</version>
+        <artifactId>jfinal-ext</artifactId>
+        <version>3.1.4</version>
     </dependency>    
   
     <dependency>
-	<groupId>mysql</groupId>
-	<artifactId>mysql-connector-java</artifactId>
-	<version>5.1.20</version>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.20</version>
     </dependency>  
 
     <dependency>
-	<groupId>c3p0</groupId>
-	<artifactId>c3p0</artifactId>
-	<version>0.9.1.2</version>
+        <groupId>c3p0</groupId>
+        <artifactId>c3p0</artifactId>
+        <version>0.9.1.2</version>
     </dependency>
   
     <dependency>
-	<groupId>log4j</groupId>
-	<artifactId>log4j</artifactId>
-	<version>1.2.17</version>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.17</version>
     </dependency>
   
     <dependency>
-	<groupId>com.jfinal</groupId>
-	<artifactId>jetty-server</artifactId>
-	<version>8.1.8</version>
+        <groupId>com.jfinal</groupId>
+        <artifactId>jetty-server</artifactId>
+        <version>8.1.8</version>
     </dependency>
   
     Jetty JSP：根据 Dependency Hierarchy 视图拆分成了七个 dependency,方便项目以及便于 导出 war的在jetty与tomcat间无缝迁移 
 
     <dependency>
-	<groupId>org.eclipse.jetty</groupId>
-	<artifactId>jetty-jsp</artifactId>
-	<version>8.1.8.v20121106</version>
-	<scope>provided</scope>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-jsp</artifactId>
+        <version>8.1.8.v20121106</version>
+        <scope>provided</scope>
     </dependency>
     
     <dependency>
-	<groupId>org.eclipse.jetty.orbit</groupId>
-	<artifactId>javax.servlet.jsp</artifactId>
-	<version>2.2.0.v201112011158</version>
-	<scope>provided</scope>
+        <groupId>org.eclipse.jetty.orbit</groupId>
+        <artifactId>javax.servlet.jsp</artifactId>
+        <version>2.2.0.v201112011158</version>
+        <scope>provided</scope>
     </dependency>
   
     <dependency>
-	<groupId>org.eclipse.jetty.orbit</groupId>
-	<artifactId>org.apache.jasper.glassfish</artifactId>
-	<version>2.2.2.v201112011158</version>
-	<scope>provided</scope>
+        <groupId>org.eclipse.jetty.orbit</groupId>
+        <artifactId>org.apache.jasper.glassfish</artifactId>
+        <version>2.2.2.v201112011158</version>
+        <scope>provided</scope>
     </dependency>
   
     <dependency>
-	<groupId>org.eclipse.jetty.orbit</groupId>
-	<artifactId>javax.el</artifactId>
-	<version>2.2.0.v201108011116</version>
-	<scope>provided</scope>
+        <groupId>org.eclipse.jetty.orbit</groupId>
+        <artifactId>javax.el</artifactId>
+        <version>2.2.0.v201108011116</version>
+        <scope>provided</scope>
     </dependency>
   
     <dependency>
-	<groupId>org.eclipse.jetty.orbit</groupId>
-	<artifactId>com.sun.el</artifactId>
-	<version>2.2.0.v201108011116</version>
-	<scope>provided</scope>
+        <groupId>org.eclipse.jetty.orbit</groupId>
+        <artifactId>com.sun.el</artifactId>
+        <version>2.2.0.v201108011116</version>
+        <scope>provided</scope>
     </dependency>
   
     <dependency>
-	<groupId>org.eclipse.jetty.orbit</groupId>
-	<artifactId>org.eclipse.jdt.core</artifactId>
-	<version>3.7.1</version>
-	<scope>provided</scope>
+        <groupId>org.eclipse.jetty.orbit</groupId>
+        <artifactId>org.eclipse.jdt.core</artifactId>
+        <version>3.7.1</version>
+        <scope>provided</scope>
     </dependency>
 
     <dependency>
-	<groupId>org.eclipse.jetty.orbit</groupId>
-	<artifactId>javax.servlet.jsp.jstl</artifactId>
-	<version>1.2.0.v201105211821</version>
+        <groupId>org.eclipse.jetty.orbit</groupId>
+        <artifactId>javax.servlet.jsp.jstl</artifactId>
+        <version>1.2.0.v201105211821</version>
 	     <exclusions>
 	         <exclusion>
 	              <groupId>org.eclipse.jetty.orbit</groupId>
@@ -128,7 +128,7 @@ description: 搭建jfinal项目maven流程
      </dependency>
     
      <dependency>
-	 <groupId>org.eclipse.jetty.orbit</groupId>
+         <groupId>org.eclipse.jetty.orbit</groupId>
 	 <artifactId>org.apache.taglibs.standard.glassfish</artifactId>
 	 <version>1.2.0.v201112081803</version>
 	     <exclusions>
