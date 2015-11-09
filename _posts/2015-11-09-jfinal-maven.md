@@ -1,11 +1,10 @@
 ---
 layout:post
-title:Maven搭建JFinal项目
-date:2015-11-09
-categories:JFinal
-tags:[jfinal,maven]
-description:搭建jfinal项目maven流程
-
+title:vim的使用
+date:2015-10-31
+categories:blog
+tags:[vim,use]
+description: 快速学习使用vim
 ---
 
 ## vim常用命令
