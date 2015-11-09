@@ -33,14 +33,16 @@ description: 搭建jfinal项目maven流程
    1.官网上下载jfinal demo包。里面提供了一些常用jar包，直接把jar拷贝到lib中使用就ok，可以快速的搭建成功，这里就不说了，
 在里面没有找到关于maven搭建的。[官网见:http://www.jfinal.com/](http://www.jfinal.com/)
 	
-   2.搭建maven的依赖  
-
+   2.搭建maven的依赖
+  
+	
   	<dependency> 		
 		<groupId>com.jfinal</groupId>
 		<artifactId>jfinal</artifactId>
 		<version>2.0</version>
   	</dependency>  
 
+	
   	<dependency>
 		<groupId>com.jfinal</groupId>
 		<artifactId>jfinal-ext</artifactId>
