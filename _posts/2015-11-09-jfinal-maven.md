@@ -34,20 +34,18 @@ description: 搭建jfinal项目maven流程
 在里面没有找到关于maven搭建的。[官网见:http://www.jfinal.com/](http://www.jfinal.com/)
 	
    2.搭建maven的依赖
-  
 	
   	<dependency> 		
 		<groupId>com.jfinal</groupId>
 		<artifactId>jfinal</artifactId>
 		<version>2.0</version>
   	</dependency>  
-
 	
   	<dependency>
 		<groupId>com.jfinal</groupId>
 		<artifactId>jfinal-ext</artifactId>
 		<version>3.1.4</version>
-	</dependency>  
+	</dependency>    
 
 	<dependency>
 		<groupId>mysql</groupId>
