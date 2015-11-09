@@ -1,9 +1,12 @@
 ---
-layout:post
-title:GIT配置SSH协议
-date:2015-10-31
-categories:blog
+layout: post
+title: GIT配置SSH协议
+date: 2015-10-31
+categories: blog
+tags: [git,ssh]
 description: git上如何配置ssh
+
+
 ---
 
 ## 说明
@@ -19,7 +22,7 @@ github 管理项目的时候，一般有两种方式来clone项目，一种是HT
 ##添加配置ssh
   **1.检查电脑上是否已存在SSH KEY**  
 
-         运行git bash 客户端  
+	 运行git bash 客户端  
 
 	 $ cd ~/.ssh  
 
