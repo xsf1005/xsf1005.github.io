@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "人最困难的坚持"
-header-img: "http://xsf1005.github.io/img/green.jpg"
+header-img: "img/green.jpg"
 ---
 
 
@@ -20,7 +20,7 @@ header-img: "http://xsf1005.github.io/img/green.jpg"
 - 智者一切求自己，愚者一切求他人
 
 
-### 关注：
+### 关注
 
 
 - [产品100](http://www.chanpin100.com/)
