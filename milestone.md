@@ -2,7 +2,7 @@
 layout: page
 title: "milestone"
 description: "生活处处是哲理,小人生,大道理"
-header-img: "http://xsf1005.github.io/img/zhihu.jpg"
+header-img: "img/zhihu.jpg"
 ---
 
 

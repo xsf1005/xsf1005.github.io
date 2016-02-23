@@ -2,7 +2,7 @@
 layout: page
 title: "Archive"
 description: "养成学习、思考、总结、沉淀、分享的习惯"
-header-img: "http://xsf1005.github.io/img/orange.jpg"
+header-img: "img/orange.jpg"
 ---
 
 
