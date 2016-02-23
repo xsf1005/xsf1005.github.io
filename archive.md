@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Archive"
-description: "你看到的，是我练习千字文的所有文章"
+description: "养成学习、思考、总结、沉淀、分享的习惯"
 header-img: "img/orange.jpg"
 ---
 

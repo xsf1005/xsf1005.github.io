@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "弱水三千只取一瓢"
+description: "人最困难的坚持"
 header-img: "img/green.jpg"
 ---
 
@@ -10,14 +10,12 @@ header-img: "img/green.jpg"
     <p><img src="http://7xlfkx.com1.z0.glb.clouddn.com/white2.jpg" align="center"></p>
 </center>
 
-Fork by 陈素封，感谢原作者,下面有关于他的链接。
+
+###信条
 
 
-###坚信
-
-
-- 学无止境
-- 博学之，审问之，慎思之，明辨之，笃行之
+- 人生最困难的是坚持,当坚持成为一种习惯的时候，你就是赢家！
+- 懒惰是人的本性，做个有计划，能按计划执行的人！
 - 态度决定一切，实力捍卫尊严！人要经得起诱惑耐得住寂寞！
 - 智者一切求自己，愚者一切求他人
 
@@ -25,15 +23,19 @@ Fork by 陈素封，感谢原作者,下面有关于他的链接。
 ###关注：
 
 
-- [元认知](http://www.mesule.com/)
-- 写作
-- Python
-- [阳志平](http://www.yangzhiping.com/)
-- [ZoomQuiet](http://blog.zoomquiet.io/)
+- [产品100](http://www.chanpin100.com/)
+- [互联网的那些事](http://www.yixieshi.com)
+- [Kant博客](http://kant.cc/)
+- [伯乐在线](http://blog.jobbole.com/371/)
 
 
 
-###代表作：
+###联系
+
+- [邮箱:714437815@qq.com]
+
+
+### Fork by 陈素封，感谢原作者,下面有关于他的链接。
 
 - [《24款最值得推荐的中文字体》](http://cnfeat.com/blog/2015/05/22/a-24-chinese-fonts/)
 
@@ -41,18 +43,6 @@ Fork by 陈素封，感谢原作者,下面有关于他的链接。
 
 - [《如何正确地练习写作》](http://cnfeat.com/blog/2015/03/02/how-to-write/)
 
-
-###链接的朋友们
-
-- [YiLee](http://yilee.me)
-- [Caos](http://caos.me)
-- [BuzhiNote](http://BuzhiNote.com)
-- [Azeril](http://azeril.me)
-
-###联系
-
-   博客排版作者：
-   
 - [博客：www.cnfeat.com](www.cnfeat.com)
 
 - [微博@CnFeat](http://weibo.com/207775270)
@@ -60,9 +50,6 @@ Fork by 陈素封，感谢原作者,下面有关于他的链接。
 - [知乎@陈素封](http://www.zhihu.com/people/Feat)
 
 - [知乎专栏](http://zhuanlan.zhihu.com/cnfeat)
-
-
-
 
 
 
