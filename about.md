@@ -11,7 +11,7 @@ header-img: "http://xsf1005.github.io/img/green.jpg"
 </center>
 
 
-###信条
+### 信条
 
 
 - 人生最困难的是坚持,当坚持成为一种习惯的时候，你就是赢家！
@@ -20,7 +20,7 @@ header-img: "http://xsf1005.github.io/img/green.jpg"
 - 智者一切求自己，愚者一切求他人
 
 
-###关注：
+### 关注：
 
 
 - [产品100](http://www.chanpin100.com/)
@@ -30,7 +30,7 @@ header-img: "http://xsf1005.github.io/img/green.jpg"
 
 
 
-###联系
+### 联系
 
 - [邮箱:714437815@qq.com]
 
