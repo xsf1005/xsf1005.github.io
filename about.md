@@ -27,6 +27,7 @@ header-img: "img/green.jpg"
 - [互联网的那些事](http://www.yixieshi.com)
 - [Kant博客](http://kant.cc/)
 - [伯乐在线](http://blog.jobbole.com/371/)
+- [segmentfault](https://segmentfault.com)
 
 
 
