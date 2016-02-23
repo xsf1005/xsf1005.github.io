@@ -45,7 +45,7 @@ defaults:
     values:
       layout: "post"
       author: "godshare"
-      header-img: "img/facebook.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "http://xsf1005.github.io/img/favicon.png" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
