@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "人最困难的坚持"
-header-img: "img/green.jpg"
+header-img: "http://xsf1005.github.io/img/green.jpg"
 ---
 
 

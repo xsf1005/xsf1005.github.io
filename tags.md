@@ -2,7 +2,7 @@
 layout: page
 title: "Tags"
 description: "哈哈，随便逛逛！"  
-header-img: "img/semantic.jpg"  
+header-img: "http://xsf1005.github.io/img/semantic.jpg"  
 ---
 
 ##本页使用方法
