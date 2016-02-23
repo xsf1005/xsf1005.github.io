@@ -4,7 +4,7 @@ title: 开启我的Blog之旅
 date: 2015-10-31
 categories: blog
 tags: [github,学习之旅]
-description:  为什么要写blog。
+description: 为什么要写blog。
 
 
 ---
