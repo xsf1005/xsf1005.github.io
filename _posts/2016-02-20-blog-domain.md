@@ -1,24 +1,24 @@
 ---
 layout: post
-title: github blog ÓòÃû°ó¶¨
+title: github blog åŸŸåç»‘å®š
 date: 2016-02-20
 categoreis: domain
-tags: [ÓòÃû,°ó¶¨]
-description: °ó¶¨²©¿ÍÓòÃû
+tags: [åŸŸå,ç»‘å®š]
+description: ç»‘å®šåšå®¢åŸŸå
 
 ---
 
-### ÔÚÍòÍøÉÏ½øÐÐÓòÃû¹ºÂò
+### åœ¨ä¸‡ç½‘ä¸Šè¿›è¡ŒåŸŸåè´­ä¹°
 
-	http://wanwang.aliyun.com/ Ñ¡ÔñÄãÒª¹ºÂòµÄÓòÃû
+	http://wanwang.aliyun.com/ é€‰æ‹©ä½ è¦è´­ä¹°çš„åŸŸå
 
 ### DNSPOD
 	
-	https://www.dnspod.cn/  ×¢²áµÇÂ¼½øÈë¹ÜÀí,½øÐÐÓòÃû½âÎö°ó¶¨µ½ÄãµÄgithub ²©¿Í
-	ÓòÃû½âÎöµÄÊ±ºò,Ö÷»ú¼ÇÂ¼ @ ,¼ÇÂ¼ÀàÐÍ A ,ÏßÂ·ÀàÐÍ Ä¬ÈÏ,¼ÇÂ¼Öµ 192.30.252.153(»ò154) TTL 60
+	https://www.dnspod.cn/  æ³¨å†Œç™»å½•è¿›å…¥ç®¡ç†,è¿›è¡ŒåŸŸåè§£æžç»‘å®šåˆ°ä½ çš„github åšå®¢
+	åŸŸåè§£æžçš„æ—¶å€™,ä¸»æœºè®°å½• @ ,è®°å½•ç±»åž‹ A ,çº¿è·¯ç±»åž‹ é»˜è®¤,è®°å½•å€¼ 192.30.252.153(æˆ–154) TTL 60
 
-### Ìí¼ÓÓòÃûµ½²©¿Í
+### æ·»åŠ åŸŸååˆ°åšå®¢
 
-	ÔÚ²©¿Í¸ùÄ¿Â¼ÏÂ½¨Á¢CNAME ÀïÃæÌîÐ´Äã¹ºÂòµÄÓòÃû¼´¿É¡£Ìá½»µ½githubÉÏ¡£
+	åœ¨åšå®¢æ ¹ç›®å½•ä¸‹å»ºç«‹CNAME é‡Œé¢å¡«å†™ä½ è´­ä¹°çš„åŸŸåå³å¯ã€‚æäº¤åˆ°githubä¸Šã€‚
 
-   µÈ´ýÓòÃûÉúÐ§¡£ÉúÐ§ºó£¬·ÃÎÊÓòÃû¼´¿ÉÌø×ªµ½ÄãµÄ²©¿Í¡£
+   ç­‰å¾…åŸŸåç”Ÿæ•ˆã€‚ç”Ÿæ•ˆåŽï¼Œè®¿é—®åŸŸåå³å¯è·³è½¬åˆ°ä½ çš„åšå®¢ã€‚
