@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 产品学习第二篇
-date: 2016-02-25
+date: 2016-02-28
 categories: 产品
 tags: [产品]
 description: 产品学习
