@@ -3,7 +3,6 @@ layout: post
 title: kettle修改任务中的数据库的问题
 date: 2016-02-29
 categories: kettle
-tags: [Kettle]
 description: 关于kettle中数据库修改后的问题
 
 ---
