@@ -3,7 +3,7 @@ layout: post
 title: kettle修改任务中的数据库的问题
 date: 2016-02-29
 categories: kettle
-tags: [kettle,update]
+tags: [Kettle]
 description: 关于kettle中数据库修改后的问题
 
 ---
@@ -20,4 +20,4 @@ description: 关于kettle中数据库修改后的问题
 
 ### 配一个kettle任务图
 
-	![image](http://xsf1005.github.io/img/kettle/kettle.png)
+    ![image](http://xsf1005.github.io/img/kettle/kettle.png)
