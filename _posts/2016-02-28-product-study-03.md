@@ -1,19 +1,23 @@
 ---
 layout: post
-title: 产品学习第二篇
+title: 产品学习-行业网站
 date: 2016-02-28
 categories: 产品
 tags: [产品]
 description: 产品学习
+
+---
 
 以下是产品数据查询，来源的一些网站
 
 
 ### 互联网资讯网站
 
-   1.互联网的一些事(http://www.yixieshi.com/)
-   2.36氪(http://36kr.com/)
-   3.产品100(http://www.chanpin100.com/)
+   1. 互联网的一些事(http://www.yixieshi.com/)
+
+   2. 36氪(http://36kr.com/)
+
+   3. 产品100(http://www.chanpin100.com/)
 
 
 ### 产品行业分析

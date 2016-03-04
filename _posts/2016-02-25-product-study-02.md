@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 产品理解学习第一篇
+title: 产品的流程
 date: 2016-02-25
 categories: 产品
 tags: [产品]
