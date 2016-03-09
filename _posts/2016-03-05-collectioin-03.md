@@ -9,53 +9,76 @@ description: Collection 浅谈 Map
 
 ### HashMap
 	
-	- 特点：
-		1.散列无序
-		2.不可重复
+   - 特点：
+	
+	1.散列无序
+	
+	2.不可重复
 
-	- 使用：
-		1.可以使用iterator和foreach进行遍历
+   - 使用：
+	
+	1.可以使用iterator和foreach进行遍历
 
-	- 分析：
-		1.put()元素时，如果key不存在，返回null,如果key存在，返回已存在key值。
-		2.遍历的时候，要把Map转成Entry然后获取元素。
-		3.通过抽象类HashIterator来实现遍历Entry.
-		4.HashMap是基于数组和链表来实现的，当key 进行hash后，产生碰撞或者说冲突后，采用链表的形式来存储，先入的房子链尾，
+   - 分析：
+	
+	1.put()元素时，如果key不存在，返回null,如果key存在，返回已存在key值。
+	
+	2.遍历的时候，要把Map转成Entry然后获取元素。
+	
+	3.通过抽象类HashIterator来实现遍历Entry.
+	
+	4.HashMap是基于数组和链表来实现的，当key 进行hash后，产生碰撞或者说冲突后，采用链表的形式来存储，先入的房子链尾，
 后人的放在链头。
 		
 
 ### LinkedHashMap
 	
-	- 特点：
-		1.有2种输出方式，插入输出（accessOrder默认的时候，输出顺序和插入顺序一致，属于插入顺序输出。），访问输出（LRU）
-		2.不可重复
-		3.双向链表维护访问顺序。
+   - 特点：
+	
+	1.有2种输出方式，插入输出（accessOrder默认的时候，输出顺序和插入顺序一致，属于插入顺序输出。），访问输出（LRU）
+	
+	2.不可重复
+	
+	3.双向链表维护访问顺序。
 
-	- 使用：
-		1.可以使用iterator和foreach进行遍历
+   - 使用：
+	
+	1.可以使用iterator和foreach进行遍历
 
-	- 分析：
-		1.put()元素时，如果key不存在，返回null,如果key存在，返回已存在key值。
-		2.遍历的时候，要把Map转成Entry然后获取元素。
-		3.通过抽象类LinkedHashIterator来实现遍历Entry.
-		4.它相比于HashMap多了一个重新定义的Entry<K,V> header,在Entry 中实现中增加了2个属性，before,after.
+   - 分析：
+	
+	1.put()元素时，如果key不存在，返回null,如果key存在，返回已存在key值。
+	
+	2.遍历的时候，要把Map转成Entry然后获取元素。
+	
+	3.通过抽象类LinkedHashIterator来实现遍历Entry.
+	
+	4.它相比于HashMap多了一个重新定义的Entry<K,V> header,在Entry 中实现中增加了2个属性，before,after.
 
 
 ### TreeMap
 	
-	- 特点：
-		1.默认情况下，按照key升序排列。
-		2.不可重复
-		3.可以自定义排序顺序，使用Comparator接口来实现
+   - 特点：
+	
+	1.默认情况下，按照key升序排列。
+	
+	2.不可重复
+	
+	3.可以自定义排序顺序，使用Comparator接口来实现
 
-	- 使用：
-		1.可以使用iterator和foreach进行遍历
+    - 使用：
+	
+	1.可以使用iterator和foreach进行遍历
 
-	- 分析：
-		1.put()元素时，如果key不存在，返回null,如果key存在，返回已存在key值。
-		2.遍历的时候，要把Map转成Entry然后获取元素。
-		3.通过抽象类PrivateEntryIterator来实现遍历Entry.
-		4.基于红黑树实现。
+    - 分析：
+	
+	1.put()元素时，如果key不存在，返回null,如果key存在，返回已存在key值。
+	
+	2.遍历的时候，要把Map转成Entry然后获取元素。
+	
+	3.通过抽象类PrivateEntryIterator来实现遍历Entry.
+	
+	4.基于红黑树实现。
 
 
 	
@@ -64,8 +87,11 @@ description: Collection 浅谈 Map
 ### HashMap和LinkedHashMap 效率问题
 
 	经过1万，10万，100万，数据，50次循环插入，遍历，获取测试。
+	
 	插入效率：HashMap 优于LinkedHashMap, 原因可能是LinkedHashMap需要维护双向列表。
+	
 	迭代遍历效率：LinkedHashMap 优于 HashMap，原因可能是，HashMap遍历是数组循环，LinkedHashMap是链表查询。
+	
 	获取元素：数量少的情况下差别不大，超过100万，HashMap要优于 LinkedHashMap.
 
 
