@@ -77,7 +77,7 @@ description: Java applet js 使用
 	keytool -genkey -keystore readcard.store -alias readcard -validity 3650（生成密钥库）
 	-validity 3650 表示的是有效期是3650天，默认情况是六个月有效期。
 
-	keytool -export -keystore readcard.store -alias readcard -file readcard.cert （导出证书）
+	keytool -export -keystore readcard.store -alias readcard -file readcard.cer （导出证书）
 
 	jarsigner -keystore readcard.store demoprint.jar readcard （jar签名）
 	jarsigner -keystore readcard.store readcard.jar readcard
