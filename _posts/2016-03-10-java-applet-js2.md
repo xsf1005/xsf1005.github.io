@@ -96,7 +96,7 @@ description: 如何使用applet 调用 js
 		
 		}catch(Exception e){
 			System.out.println("-======js调用出错:"+e.getMessage());
-				AppletUseJs.INSTANCE.runJS(errorCb,param);
+			AppletUseJs.INSTANCE.runJS(errorCb,param);
 			e.printStackTrace();
 		}	
 	}
