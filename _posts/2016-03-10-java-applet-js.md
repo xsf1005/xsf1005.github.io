@@ -27,7 +27,7 @@ description: 如何使用applet 调用 js
         }.start();
         String parame = "{\"success\":true,\"info\":\"加载完成\"}";
         System.out.println("加载完成=======================" + getTime());
-       // runJS("initFinish", parame); //调用客户端js方法的
+        runJS("initFinish", parame); //调用客户端js方法的
     }
 
 	2.写一个公共方法调用类
