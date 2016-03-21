@@ -1,7 +1,7 @@
 ---
 layout: post
 title: mysql备份及内存配置优化参考
-date:2016-03-13
+date: 2016-03-13
 categories: mysql
 description: 内存配置优化说明参考
 
