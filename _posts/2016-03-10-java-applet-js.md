@@ -131,7 +131,6 @@ description: 如何使用applet 调用 js
 	function initFinish(jsonObj){
 		console.log("========applet init end:" + jsonObj.info);
 	}
-</script>
 <body> 
 <applet id="" code="com.xsf.readcard.app.AppletTest" codebase="./cp/" archive="AppletTest.jar" width="0" height="0" >
 </applet>
