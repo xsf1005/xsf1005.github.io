@@ -138,7 +138,8 @@ description: 项目中使用的应用
 ### 浏览器加载使用
 
 	if(!window['_NativeJSInjectObj']){
-	document.write('<applet id="rwcard" name="rwcard" code="com.xsf.readcard.app.ReadCardApplet.class" codebase="/Tools/applet/tqi/" scriptable="true"');
+	document.write('<applet id="rwcard" name="rwcard" code="com.xsf.readcard.app.ReadCardApplet.class" 
+	codebase="/Tools/applet/tqi/" scriptable="true"');
 	document.write(' archive="readcardapp.jar,jna-4.1.0.jar,jna-platform-4.1.0.jar"');
 	document.write(' height="1" width="1">');
 	document.write(' <param name="serverpath"  id="serverpath" value="'+spath+'/tqi/controller/readCard/downDLL"/>');

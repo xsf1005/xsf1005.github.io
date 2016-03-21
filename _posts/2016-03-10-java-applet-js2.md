@@ -10,7 +10,7 @@ description: 如何使用applet 调用 js
 ### applet调用js总结 
 
 	1.声明一个对象
-		public static AppletUseJs INSTANCE ;（applet类对象）
+	public static AppletUseJs INSTANCE ;（applet类对象）
 	
 	2.初始化
 	@Override

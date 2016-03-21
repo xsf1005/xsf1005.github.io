@@ -10,7 +10,6 @@ description: 如何使用applet 调用 js
 ### applet调用js总结 
 
 	1.初始化applet
-	
     public void init() {
         new Thread(){
             public void run(){
@@ -31,11 +30,6 @@ description: 如何使用applet 调用 js
     }
 
 	2.写一个公共方法调用类
-    /**
-     *
-     * @param json 传入的字符串数据
-     * @param fun 回调的函数
-     */
     public void myMethod(final String fun,final String json){
         AccessController.doPrivileged(new PrivilegedAction<Object>() {
             public Object run() {
@@ -132,6 +126,6 @@ description: 如何使用applet 调用 js
 		console.log("========applet init end:" + jsonObj.info);
 	}
 <body> 
-<applet id="" code="com.xsf.readcard.app.AppletTest" codebase="./cp/" archive="AppletTest.jar" width="0" height="0" >
+<applet id="tool" code="com.xsf.readcard.app.AppletTest" codebase="./cp/" archive="AppletTest.jar" width="0" height="0" >
 </applet>
 </body>
