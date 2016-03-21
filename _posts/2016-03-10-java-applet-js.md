@@ -133,6 +133,6 @@ description: 如何使用applet 调用 js
 	}
 </script>
 <body> 
-<applet id="tool" code="com.xsf.readcard.app.AppletTest" codebase="./cp/" archive="AppletTest.jar" width="0" height="0" >
+<applet id="" code="com.xsf.readcard.app.AppletTest" codebase="./cp/" archive="AppletTest.jar" width="0" height="0" >
 </applet>
 </body>
