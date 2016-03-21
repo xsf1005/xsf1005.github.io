@@ -126,6 +126,5 @@ description: 如何使用applet 调用 js
 		console.log("========applet init end:" + jsonObj.info);
 	}
 <body> 
-<applet id="tool" code="com.xsf.readcard.app.AppletTest" codebase="./cp/" archive="AppletTest.jar" width="0" height="0" >
-</applet>
+
 </body>
